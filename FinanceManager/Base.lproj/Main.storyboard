@@ -28,7 +28,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FjO-ku-Ruk">
                                 <rect key="frame" x="204" y="185" width="190" height="271"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKO-Vf-m5P">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKO-Vf-m5P">
                                         <rect key="frame" x="1" y="1" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,8 +36,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="1">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ew6-s3-WFg"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ver-TQ-wUP">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ver-TQ-wUP">
                                         <rect key="frame" x="64" y="1" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,8 +48,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="2">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HG4-kE-5e3"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QM7-rI-poC">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QM7-rI-poC">
                                         <rect key="frame" x="127" y="1" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,8 +60,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="3">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XCb-wH-5Md"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyV-Su-thV">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyV-Su-thV">
                                         <rect key="frame" x="1" y="91" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,8 +72,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="4">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IOm-Re-T85"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4j-eT-HYT">
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4j-eT-HYT">
                                         <rect key="frame" x="64" y="91" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -72,8 +84,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="5">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMZ-0p-996"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLz-2X-kmW">
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLz-2X-kmW">
                                         <rect key="frame" x="127" y="91" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -81,8 +96,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="6">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tgl-aR-pPM"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anx-f4-Saq">
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anx-f4-Saq">
                                         <rect key="frame" x="1" y="181" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -90,8 +108,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="7">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ur-UG-T7D"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uis-Xb-JYp">
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uis-Xb-JYp">
                                         <rect key="frame" x="64" y="181" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -99,8 +120,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="8">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sUT-Fu-ZUh"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBW-jC-J0x">
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBW-jC-J0x">
                                         <rect key="frame" x="127" y="181" width="62" height="89"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -108,6 +132,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="9">
                                             <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y6u-IA-TvA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -172,6 +199,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Еда">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="categoryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nMF-G1-MXp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gk2-ev-Rdk">
                                                 <rect key="frame" x="4.5" y="40" width="46" height="46"/>
@@ -199,6 +229,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Одежда">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="categoryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a6D-8y-tc6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srg-MX-cdJ">
                                                 <rect key="frame" x="4" y="40" width="74.5" height="46"/>
@@ -226,6 +259,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Связь">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="categoryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONE-Ia-tw8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXF-eE-jq0">
                                                 <rect key="frame" x="3" y="40" width="58.5" height="46"/>
@@ -253,6 +289,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Досуг">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="categoryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KN0-xd-wZf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQw-RO-aW7">
                                                 <rect key="frame" x="3" y="40" width="60" height="46"/>
@@ -280,6 +319,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Красота">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="categoryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tr8-ah-vdJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hge-jX-HZZ">
                                                 <rect key="frame" x="3.5" y="40" width="73.5" height="46"/>
@@ -307,6 +349,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Авто">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="categoryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gul-9y-irN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngo-Ya-BZi">
                                                 <rect key="frame" x="3" y="40" width="53.5" height="46"/>
@@ -329,8 +374,11 @@
                                 <buttonConfiguration key="configuration" style="plain" title="0">
                                     <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UaK-Ct-bUl"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxv-lj-fRg">
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxv-lj-fRg">
                                 <rect key="frame" x="268" y="456" width="125" height="89"/>
                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -338,6 +386,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="C">
                                     <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hEf-Fm-cfN"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JNc-MC-vXe">
                                 <rect key="frame" x="20" y="185" width="182" height="360"/>
@@ -450,14 +501,15 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="euU-0r-g1s">
-                                <rect key="frame" x="0.0" y="657" width="414" height="239"/>
+                                <rect key="frame" x="0.0" y="669" width="414" height="227"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexTrackingBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Bd7-v1-BkC">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="Bd7-v1-BkC" customClass="CustomTableViewCell" customModule="FinanceManager" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bd7-v1-BkC" id="Lyt-wl-2YR">
@@ -497,6 +549,11 @@
                                             <constraint firstItem="c25-Bl-Ae8" firstAttribute="centerY" secondItem="Bd7-v1-BkC" secondAttribute="centerY" id="w1I-HX-4tB"/>
                                             <constraint firstItem="rip-XN-hDU" firstAttribute="height" secondItem="Bd7-v1-BkC" secondAttribute="height" multiplier="0.54023" id="zBS-lJ-CIq"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="recordCategory" destination="23l-Mq-kN1" id="LaG-bW-CGa"/>
+                                            <outlet property="recordCost" destination="rip-XN-hDU" id="bGK-yj-ZK6"/>
+                                            <outlet property="recordImage" destination="c25-Bl-Ae8" id="ryH-c9-rPl"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -506,21 +563,22 @@
                         <constraints>
                             <constraint firstItem="Spb-eQ-H39" firstAttribute="top" secondItem="FjO-ku-Ruk" secondAttribute="bottom" id="0Kb-12-sgq"/>
                             <constraint firstItem="Vxv-lj-fRg" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.301932" id="2TK-Xo-ip5"/>
+                            <constraint firstItem="nK5-q2-gLg" firstAttribute="trailing" secondItem="FjO-ku-Ruk" secondAttribute="trailing" id="5HQ-pf-Q2V"/>
+                            <constraint firstItem="nK5-q2-gLg" firstAttribute="leading" secondItem="JNc-MC-vXe" secondAttribute="leading" id="6vt-8K-sLU"/>
                             <constraint firstItem="nK5-q2-gLg" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.0841379" id="7HO-qe-Rcr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C8u-oj-qMd" secondAttribute="trailing" constant="30" id="7xB-ei-fkP"/>
                             <constraint firstItem="JNc-MC-vXe" firstAttribute="top" secondItem="nK5-q2-gLg" secondAttribute="bottom" constant="14" id="8by-e7-Fe9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vxv-lj-fRg" secondAttribute="trailing" constant="21" id="9od-DY-QuQ"/>
                             <constraint firstItem="JNc-MC-vXe" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.439614" id="HiC-88-wLH"/>
                             <constraint firstItem="Vxv-lj-fRg" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.122759" id="LZL-SI-PFd"/>
-                            <constraint firstItem="nK5-q2-gLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Leg-nz-gSs"/>
                             <constraint firstItem="FjO-ku-Ruk" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.458937" id="MWf-DM-gMZ"/>
                             <constraint firstItem="R0P-7l-k8h" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="OxN-gq-kmP"/>
+                            <constraint firstAttribute="trailing" secondItem="euU-0r-g1s" secondAttribute="trailing" id="P4F-xJ-mT2"/>
+                            <constraint firstAttribute="bottom" secondItem="euU-0r-g1s" secondAttribute="bottom" id="Ry9-Hr-OkR"/>
                             <constraint firstItem="FjO-ku-Ruk" firstAttribute="leading" secondItem="JNc-MC-vXe" secondAttribute="trailing" constant="2" id="Spf-00-BxJ"/>
-                            <constraint firstItem="nK5-q2-gLg" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.903382" id="Z3i-Jq-1fk"/>
-                            <constraint firstAttribute="bottom" secondItem="euU-0r-g1s" secondAttribute="bottom" id="a4L-Lw-dQ8"/>
+                            <constraint firstItem="euU-0r-g1s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="T2L-uU-7yx"/>
                             <constraint firstItem="R0P-7l-k8h" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.118621" id="acp-42-fzt"/>
                             <constraint firstItem="Spb-eQ-H39" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.149758" id="dYF-5F-uaj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nK5-q2-gLg" secondAttribute="trailing" constant="20" id="gpV-Gb-7ND"/>
                             <constraint firstItem="Spb-eQ-H39" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.122759" id="iYG-Vm-Na7"/>
                             <constraint firstItem="JNc-MC-vXe" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.496552" id="icA-RL-HEL"/>
                             <constraint firstItem="R0P-7l-k8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jFk-92-NmA"/>
@@ -531,15 +589,28 @@
                             <constraint firstItem="Vxv-lj-fRg" firstAttribute="leading" secondItem="Spb-eQ-H39" secondAttribute="trailing" constant="1" id="pyY-NK-Xzz"/>
                             <constraint firstItem="R0P-7l-k8h" firstAttribute="top" secondItem="Vxv-lj-fRg" secondAttribute="bottom" constant="30" id="qMo-g8-koD"/>
                             <constraint firstItem="FjO-ku-Ruk" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.373793" id="qXi-zt-xg0"/>
-                            <constraint firstItem="euU-0r-g1s" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="r5C-jx-av8"/>
+                            <constraint firstItem="euU-0r-g1s" firstAttribute="top" secondItem="R0P-7l-k8h" secondAttribute="bottom" constant="8" symbolic="YES" id="sIL-tz-zJa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FjO-ku-Ruk" secondAttribute="trailing" constant="20" id="ugd-iy-iPN"/>
-                            <constraint firstItem="euU-0r-g1s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vRR-CS-Lh2"/>
-                            <constraint firstItem="euU-0r-g1s" firstAttribute="top" secondItem="R0P-7l-k8h" secondAttribute="bottom" constant="-4" id="wQK-5d-n1c"/>
                             <constraint firstItem="nK5-q2-gLg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="xcg-Cv-9yo"/>
                             <constraint firstItem="Vxv-lj-fRg" firstAttribute="top" secondItem="FjO-ku-Ruk" secondAttribute="bottom" id="yI8-A0-jy4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="FuckTheMoney" id="jKw-yJ-flJ"/>
+                    <connections>
+                        <outlet property="displayLabel" destination="C8u-oj-qMd" id="mnr-1T-udg"/>
+                        <outlet property="tableView" destination="euU-0r-g1s" id="CXv-af-ZoF"/>
+                        <outletCollection property="numbersFromKB" destination="xKO-Vf-m5P" collectionClass="NSMutableArray" id="wbE-dA-izu"/>
+                        <outletCollection property="numbersFromKB" destination="Ver-TQ-wUP" collectionClass="NSMutableArray" id="0uD-hG-OPR"/>
+                        <outletCollection property="numbersFromKB" destination="QM7-rI-poC" collectionClass="NSMutableArray" id="ajt-dj-IIR"/>
+                        <outletCollection property="numbersFromKB" destination="iyV-Su-thV" collectionClass="NSMutableArray" id="wAH-JW-7ol"/>
+                        <outletCollection property="numbersFromKB" destination="e4j-eT-HYT" collectionClass="NSMutableArray" id="zUO-Ms-gyM"/>
+                        <outletCollection property="numbersFromKB" destination="cLz-2X-kmW" collectionClass="NSMutableArray" id="bfv-dL-IS3"/>
+                        <outletCollection property="numbersFromKB" destination="Anx-f4-Saq" collectionClass="NSMutableArray" id="HTi-eU-apY"/>
+                        <outletCollection property="numbersFromKB" destination="Uis-Xb-JYp" collectionClass="NSMutableArray" id="wWp-Jl-LFc"/>
+                        <outletCollection property="numbersFromKB" destination="PBW-jC-J0x" collectionClass="NSMutableArray" id="PTe-m6-Rmk"/>
+                        <outletCollection property="numbersFromKB" destination="Vxv-lj-fRg" collectionClass="NSMutableArray" id="yaW-cU-Ppf"/>
+                        <outletCollection property="numbersFromKB" destination="Spb-eQ-H39" collectionClass="NSMutableArray" id="0zH-Og-89I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -551,6 +622,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="F18-Sd-cOV" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kwD-EK-ksR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
